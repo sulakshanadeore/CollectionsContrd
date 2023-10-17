@@ -63,9 +63,9 @@ namespace CollectionsContrd
             return this.current;
         }
 
-        public Node getRoot()
+        public Node ShowRoot()
         {
-            current = root;
+            //current = root;
             return this.root;
         }
 
@@ -104,7 +104,7 @@ namespace CollectionsContrd
             Console.WriteLine("length of singly linked list=" + list.getLengthOfList());
 
             Console.WriteLine( "Print Single linked list ");
-            n = list.getRoot();
+            n = list.ShowRoot();
             while (n != null)
             {
                 Console.WriteLine(n.Data);
