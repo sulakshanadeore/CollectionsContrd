@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CollectionsContrd.Circlist</StartupObject>
+    <StartupObject>CollectionsContrd.InsertionSortdemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CircularLinkedListdemo.cs" />
+    <Compile Include="Code.cs" />
+    <Compile Include="InsertionSortdemo.cs" />
     <Compile Include="SinglyLinkedListDemo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

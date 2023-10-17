@@ -84,10 +84,6 @@ namespace CollectionsContrd
         {
             return this.length;
         }
-
-
-
-
         public void CreateSinglyLinkedList()
         {
             SinglyLinkedList list = new SinglyLinkedList();
