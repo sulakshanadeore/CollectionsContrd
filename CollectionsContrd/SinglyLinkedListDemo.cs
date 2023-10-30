@@ -41,19 +41,19 @@ namespace CollectionsContrd
             set { this.length = value; }
         }
 
-        public void add(Node node)
+        public void add(Node newnode)
         {
-            node.Next = null;
+            newnode.Next = null;
             if (root == null)
             {
-                root = node;
+                root = newnode;
                 length = 1;
                 current = root;
             }
             else
             {
-                current.Next = node;
-                current = node;
+                current.Next = newnode;
+                current = newnode;
                 length++;
             }
         }
@@ -97,7 +97,8 @@ namespace CollectionsContrd
             for (int i = 0; i < 10; i++)
             {
                 Node node = new Node();
-                node.Data = Convert.ToString(i);
+
+                node.Data = string.Concat(i, " Node data");
                 list.add(node);
             }
 

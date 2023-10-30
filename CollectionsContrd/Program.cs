@@ -10,8 +10,15 @@ namespace CollectionsContrd
     {
         static void Main(string[] args)
         {
-            SinglyLinkedList list = new SinglyLinkedList();
-            list.CreateSinglyLinkedList();
+            //SinglyLinkedList list = new SinglyLinkedList();
+            //list.CreateSinglyLinkedList();
+
+            LinkedList<string> lnkedList = new LinkedList<string>();
+         LinkedListNode<string> firstnode   =lnkedList.AddFirst("First Node");
+            lnkedList.AddLast("Last Node");
+            lnkedList.AddAfter(firstnode, "Second Node");
+
+
             Console.ReadLine();
         }
     }
